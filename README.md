@@ -6,8 +6,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib qt5    
+# %matplotlib qt5    
 # qt5 = popup window
+%matplotlib inline
 ```
 
 
@@ -195,6 +196,10 @@ plt.show()
 ```
 
 
+![png](https://github.com/justanothergymrat/pyber/raw/master/output_5_0.png)
+
+
+
 ```python
 # pie data:
 
@@ -271,6 +276,10 @@ plt.show()
 ```
 
 
+![png](output_7_0.png)
+
+
+
 ```python
 
 
@@ -301,6 +310,10 @@ plt.show()
 ```
 
 
+![png](output_8_0.png)
+
+
+
 ```python
 # % of Total Rides by City Type
 
@@ -318,6 +331,10 @@ plt.title("Percent of Total Rides by City Type")
 plt.legend(loc='upper left')
 plt.show()
 ```
+
+
+![png](output_9_0.png)
+
 
 
 ```python
@@ -348,6 +365,10 @@ plt.show()
 ```
 
 
+![png](output_10_0.png)
+
+
+
 ```python
 # % of Total Drivers by City Type
 # Pie chart
@@ -364,6 +385,10 @@ plt.title("Percent of Total Drivers by City Type")
 plt.legend(loc='upper left')
 plt.show()
 ```
+
+
+![png](output_11_0.png)
+
 
 
 ```python
@@ -391,8 +416,12 @@ plt.margins(0,0)
 plt.title("Number of Drivers by Type and Number of Drivers per City therein")
 plt.show()
 
-
+plt.save_fig("output/donut")
 ```
+
+
+![png](output_12_0.png)
+
 
 Some observations:
 
